@@ -5,8 +5,8 @@ for (var i=0;i<names.length;i++) {
   var jname = names[i].charAt(0).toLowerCase();
   
   if (jname=='j') {
-    byeSpeaker.speak(names[i]);
+    bye.greet(names[i]);
   } else {
-    helloSpeaker.speak(names[i]);
+    hello.greet(names[i]);
   }
 }
